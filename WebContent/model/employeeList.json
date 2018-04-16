@@ -1,0 +1,20 @@
+{
+   "empList" : [
+                  {
+                    "name" : "Devender",
+                    "role" : "Trainer",
+                    "dept" : "UI5"
+                  },
+                  {
+                    "name" : "Surender",
+                    "role" : "Manager",
+                    "dept" : "SAP"
+                  },{
+                    "name" : "Mahender",
+                    "role" : "Developer",
+                    "dept" : "JAVA"
+                  }
+   
+   ]
+
+}
