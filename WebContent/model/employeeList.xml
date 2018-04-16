@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <empList>
+      <element>
+         <dept>UI5</dept>
+         <name>Devender</name>
+         <role>Trainer</role>
+      </element>
+      <element>
+         <dept>SAP</dept>
+         <name>Surender</name>
+         <role>Manager</role>
+      </element>
+      <element>
+         <dept>JAVA</dept>
+         <name>Mahender</name>
+         <role>Developer</role>
+      </element>
+   </empList>
+</root>

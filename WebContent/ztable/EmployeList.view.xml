@@ -2,7 +2,7 @@
 		controllerName="ztable.EmployeList" xmlns:html="http://www.w3.org/1999/xhtml">
 	<Page title="Title">
 		<content>
-	            <Table items="{/empList}">
+	            <Table items="{/empList/element}">
 	                 <columns>
 	                       <Column>                             
 	                                    <Text text="Name"/>
