@@ -1,17 +1,17 @@
 <core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
 		controllerName="ztable.EmployeList" xmlns:html="http://www.w3.org/1999/xhtml">
-	<Page title="Title">
+	<Page title="{m2>title}">
 		<content>
 	            <Table items="{/empList/element}">
 	                 <columns>
 	                       <Column>                             
-	                                    <Text text="Name"/>
+	                                    <Text text="{m2>name}"/>
 	                       </Column>
 	                        <Column>                          
-	                                    <Text text="Role"/>                         
+	                                    <Text text="{m2>role}"/>                         
 	                       </Column>
 	                        <Column>	                           
-	                                    <Text text="Department"/>                          
+	                                    <Text text="{m2>dept}"/>                          
 	                       </Column>
 	                 </columns>
 	                 <items>

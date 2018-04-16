@@ -13,11 +13,23 @@ sap.ui.controller("ztable.EmployeList", {
 		 
 		 this.getView().setModel(oModel);*/
 		
+		/* var oModel = new sap.ui.model.json.JSONModel();
+		 
+		 oModel.loadData("model/country.json");
+		 
+		 this.getView().setModel(oModel, "c3");*/
+		
 		var oModel = new sap.ui.model.xml.XMLModel();
 		
 		oModel.loadData("model/employeeList.xml");
 		
 		this.getView().setModel(oModel);
+		
+		sap.ui.localResources("i18n");
+		var orModel = new sap.ui.model.resource.ResourceModel({
+			bundleName : "i18n.mySource"
+		});
+		this.getView().setModel(orModel, "m2");
 		
 	},
 
